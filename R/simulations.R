@@ -1,7 +1,3 @@
-# Source R/dp_richness.R first. Dependencies: Rcpp, posterior; C++11 compiler.
-# Gamma distributions use shape/rate. All random-number states are restored.
-# These reusable experiments use the manuscript sampler; their default small
-# settings are demonstrations, not the manuscript's saved production results.
 
 simulate_species_survey <- function(Lambda, truth = "gamma", shape = 1,
                                     rate = 0.5, seed = 1L) {
