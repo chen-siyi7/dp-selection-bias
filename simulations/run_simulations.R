@@ -1,9 +1,4 @@
-# From this folder's parent (the archive root):
-#   Rscript simulations/run_simulations.R demo results/demo
-#   Rscript simulations/run_simulations.R full results/full
-# Install Rcpp and posterior first; compilation requires a C++11 compiler.
-# Full mode is a new simulation study using the existing sampler and can be slow.
-# Completed chains still require diagnostic and atom-count sensitivity checks.
+
 source("R/dp_richness.R")
 source("R/simulations.R")
 args <- commandArgs(TRUE)
