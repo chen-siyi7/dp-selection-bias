@@ -1,6 +1,4 @@
-# Public R functions for the positive-count species-richness model.
-# Source this file; no analysis runs until fit_dp_richness() is called.
-# The unchanged, validated Rcpp kernel lives in src/samplers.cpp.
+
 
 .dp_source_file <- normalizePath(sys.frame(1)$ofile, mustWork = TRUE)
 .dp_backend <- local({
